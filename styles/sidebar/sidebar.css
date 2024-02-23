@@ -1,0 +1,35 @@
+.sidebar {
+  flex: 1;
+  background-color: #000015;
+  min-height: 100vh;
+  position: sticky;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sidebar .sidebar_logo {
+  color: #fff;
+}
+.sidebar .sidebar_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sidebar .sidebar_menu button {
+  padding: 15px 10px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #2e374a;
+}
+.sidebar .sidebar_menu button:hover {
+  background-color: #2e374a;
+}
+.sidebar .sidebar_menu .sidebar__link {
+  color: #8893a8;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}/*# sourceMappingURL=sidebar.css.map */

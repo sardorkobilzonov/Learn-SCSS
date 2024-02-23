@@ -1,0 +1,17 @@
+@import url(../main/main.css);
+@import url(../navbar/navbar.css);
+@import url(../sidebar/sidebar.css);
+$bgColor: #000016;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  .content {
+    flex: 4;
+  }
+}
